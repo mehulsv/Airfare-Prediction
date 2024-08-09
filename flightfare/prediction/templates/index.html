@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flight Fare Prediction</title>
+    <style>
+       
+        h1 {
+            text-align: center;
+            color: rgb(3, 224, 224);
+            margin-top: 95px;
+        }
+        h3 {
+            text-align: center;
+            color: rgb(147, 146, 146);
+        }
+        .form-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+            row-gap: 40px; /* Space between rows */
+            column-gap: 40px;
+            margin-top: 20px; /* Adjust as needed */
+            max-width: 900px; /* Optional: control the maximum width */
+            width: 100%; /* Ensure it uses full width available */
+            margin: 0 auto; /* Center the grid container */
+        }
+        .form-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center align the content within each cell */
+        }
+        .form-item label,
+        .form-item input {
+            width: 100%;
+            text-align: center; /* Center align text within inputs */
+        }
+        button {
+            display: block;
+            width: 200px;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgb(3, 224, 224);
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 7px;
+        }
+        button:hover {
+            background-color: rgb(0, 180, 180);
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Flight Fare Prediction</h1>
+        <h3>Predict your flight tickets</h3>
+        <form method="post">
+            {% csrf_token %}
+            <div class="form-container">
+                <div class="form-item">
+                    {{ form.source.label_tag }}
+                    {{ form.source }}
+                </div>
+                <div class="form-item">
+                    {{ form.destination.label_tag }}
+                    {{ form.destination }}
+                </div>
+                <div class="form-item">
+                    {{ form.date.label_tag }}
+                    {{ form.date }}
+                </div>
+                <div class="form-item">
+                    {{ form.airline.label_tag }}
+                    {{ form.airline }}
+                </div>
+                <div class="form-item">
+                    {{ form.stops.label_tag }}
+                    {{ form.stops }}
+                </div>
+            </div>
+            <br><br>
+            <center><button type="submit">Predict</button></center>
+            
+        </form>
+        <br>
+        <center>
+            {% if pred %}
+                <h2>{{ pred }}</h2>
+            {% endif %}
+        </center>
+    </div>
+</body>
+</html>
