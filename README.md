@@ -6,28 +6,26 @@ The project used Random forest regression algorithm to predict the price based o
 
 ## Project Structure
 
-Airfare_Prediction/
-├── Airfare_Prediction/
-│   ├── __init__.py
-│   ├── asgi.py
-│   ├── settings.py
-│   ├── urls.py
-│   ├── wsgi.py
-│   ├── __pycache__/
-│   │   └── [compiled Python files]
-├── Customer/
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── tests.py
-│   ├── urls.py
-│   ├── views.py
-│   └── migrations/
-│       └── __init__.py
-├── templates/
-│   └── home.html
-├── db.sqlite3
+Airfare_Prediction/    
+│   ├── asgi.py  
+│   ├── settings.py  
+│   ├── urls.py  
+│   ├── wsgi.py  
+│   ├── __pycache__/  
+│   │   └── [compiled Python files]  
+├── Customer/  
+│   ├── __init__.py  
+│   ├── admin.py  
+│   ├── apps.py  
+│   ├── models.py  
+│   ├── tests.py  
+│   ├── urls.py  
+│   ├── views.py  
+│   └── migrations/  
+│       └── __init__.py  
+├── templates/  
+│   └── home.html  
+├── db.sqlite3  
 └── manage.py
 
 
