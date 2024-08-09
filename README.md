@@ -51,3 +51,14 @@ The project used Random forest regression algorithm to predict the price based o
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+
+## Screenshots
+
+
+Before Prediction  
+
+![Screenshot 2024-07-31 000722](https://github.com/user-attachments/assets/2c7d1e83-c9c6-4bd1-9d65-9ee3a572c94a)
+
+After Prediction  
+
+![Screenshot 2024-07-31 001030](https://github.com/user-attachments/assets/077bda34-9c81-4713-b5b8-a5b82d4845df)
