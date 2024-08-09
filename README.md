@@ -4,38 +4,6 @@ This is a Django-based project for predicting airfare prices. The project is str
 The project used Random forest regression algorithm to predict the price based on the user entered details obtained from the input form from the home page.
 
 
-## Project Structure
-flightfare/
-   ├──flightfare/    
-   |  │   ├── asgi.py  
-   |  |   ├── __init__.py
-   |  │   ├── settings.py  
-   |  │   ├── urls.py  
-   |  │   ├── wsgi.py  
-   |  │   ├── __pycache__/  
-   |  │   │   └── [compiled Python files]  
-   |  |
-   |  |
-   ├──Prediction/  
-      │   ├── __init__.py  
-      │   ├── admin.py  
-      │   ├── apps.py  
-      │   ├── models.py  
-      │   ├── tests.py  
-      │   ├── urls.py  
-      │   ├── views.py
-      |   ├── templates/
-      |   |     └── index.html
-      │   └── migrations/  
-      │       └── __init__.py  
-      |
-      │
-      ├── manage.py
-      ├── manage.pkl     
-      ├── db.sqlite3  
-      └── manage.py
-
-
 ## Setup Instructions
 
  ### Prerequisites
