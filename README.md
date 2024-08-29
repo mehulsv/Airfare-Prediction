@@ -16,7 +16,7 @@ The project used Random forest regression algorithm to predict the price based o
 
  1. **Clone the repository**:
     ```bash
-    git clone https://github.com/Riyaz-021/Airfare-Prediction-using-Random-Forest-Regressor.git  
+    https://github.com/mehulsv/Airfare-Prediction.git 
 
 
  2. **Install the Dependencies**:
