@@ -1,4 +1,4 @@
-# Airfare-Prediction-using-Random-Forest-Regressor
+# Airfare-Prediction
 
 This is a Django-based project for predicting airfare prices. The project is structured as a standard Django application.
 The project used Random forest regression algorithm to predict the price based on the user entered details obtained from the input form from the home page.
